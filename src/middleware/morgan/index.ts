@@ -1,7 +1,8 @@
-/* eslint-disable max-len */
 
+/* eslint-disable max-len */
 import morgan from 'morgan';
 import logger from 'utils/logger';
+import config from 'config';
 
 const stream = {
   // Use the http severity
@@ -9,8 +10,7 @@ const stream = {
 };
 
 const skip = () => {
-  const env = process.env.NODE_ENV || 'development';
-  return env !== 'development';
+  return config.env !== 'development';
 };
 
 const morganMiddleware = morgan(
