@@ -1,5 +1,5 @@
 # Express Template App
-This is an opinionated Node.js template app for building scalable and maintainable web applications using [Express](https://expressjs.com/) and [TypeScript](https://www.typescriptlang.org/).
+This is a Node.js template app that comes with a distinct perspective on building scalable and maintainable web applications using [Express](https://expressjs.com/) and [TypeScript](https://www.typescriptlang.org/).
 
 The project comes preconfigured with the following features:
 
